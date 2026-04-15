@@ -1,0 +1,60 @@
+2026-03-06 13:58:29  [INFO    ]  Scheduler triggered at 2026-03-06 13:58:29
+2026-03-06 13:58:29  [INFO    ]  ============================================================
+2026-03-06 13:58:29  [INFO    ]  Gym Tracker run starting
+2026-03-06 13:58:30  [INFO    ]  Navigating to Instagram profile: @westernrecuserstats
+2026-03-06 13:58:33  [DEBUG   ]  Waiting for post grid to load...
+2026-03-06 13:58:38  [INFO    ]  Latest post URL: https://www.instagram.com/p/DVjWvUDFoVO/
+2026-03-06 13:58:38  [DEBUG   ]  Last recorded post URL: https://www.instagram.com/p/DVjPLuVET6e/
+2026-03-06 13:58:38  [INFO    ]  New post detected — taking screenshot...
+2026-03-06 13:58:38  [INFO    ]  Screenshot saved to c:\Users\Waseem\OneDrive\Desktop\VSCode\ProjectFiles\PythonProjects\PersonalProjects\GymTracker\latest_post.png
+2026-03-06 13:58:38  [INFO    ]  Running OCR on screenshot...
+2026-03-06 13:58:42  [DEBUG   ]  OCR raw output: ['Western Student Recreation Centre', 'User Stats March 6,2026 at 1:00 PM', 'Squash: 5', 'Basketball: 44', 'Badminton: 11', 'Volleyball: 17', 'Pickleball: 8', 'Futsal: Opens Friday', '4pm', '3rd floor Fitness Centre: 76', '4th floor Fitness Centre:', 'Cardio Mezz: 40', 'Spin: 21', "Women's Only Studio: 8", 'Pool: 12']
+2026-03-06 13:58:42  [INFO    ]  OCR found → 3rd floor: 76
+2026-03-06 13:58:42  [INFO    ]  OCR found → 4th floor: 
+2026-03-06 13:58:42  [INFO    ]  CSV row written: [2026-03-06 13:58] 3rd floor → 76
+2026-03-06 13:58:42  [INFO    ]  CSV row written: [2026-03-06 13:58] 4th floor → 
+2026-03-06 13:58:42  [INFO    ]  Scrape complete.
+2026-03-06 13:58:42  [INFO    ]  Generating graph...
+2026-03-06 13:58:43  [INFO    ]  Graph saved to c:\Users\Waseem\OneDrive\Desktop\VSCode\ProjectFiles\PythonProjects\PersonalProjects\GymTracker\gym_graph.png
+2026-03-06 13:58:43  [INFO    ]  Best times for Friday: 13:00 (~76 people), 10:00 (~93 people), 12:00 (~116 people)
+2026-03-06 13:58:43  [INFO    ]  Run finished.
+2026-03-06 13:58:43  [INFO    ]  ------------------------------------------------------------
+'C:\Users\Waseem\OneDrive\Desktop\VSCode\CodingLanguagesexe\Python.exe' is not recognized as an internal or external command,
+operable program or batch file.
+Traceback (most recent call last):
+  File "C:\Users\Waseem\OneDrive\Desktop\VSCode\ProjectFiles\PythonProjects\PersonalProjects\GymTracker\read_gym.py", line 1, in <module>
+    import easyocr
+ModuleNotFoundError: No module named 'easyocr'
+Traceback (most recent call last):
+  File "C:\Users\Waseem\OneDrive\Desktop\VSCode\ProjectFiles\PythonProjects\PersonalProjects\GymTracker\read_gym.py", line 59, in <module>
+    log = setup_logger()
+  File "C:\Users\Waseem\OneDrive\Desktop\VSCode\ProjectFiles\PythonProjects\PersonalProjects\GymTracker\read_gym.py", line 46, in setup_logger
+    file_handler = logging.FileHandler(LOG_PATH, encoding="utf-8")
+  File "C:\Python314\Lib\logging\__init__.py", line 1219, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ~~~~~~~~~~^^
+  File "C:\Python314\Lib\logging\__init__.py", line 1248, in _open
+    return open_func(self.baseFilename, self.mode,
+                     encoding=self.encoding, errors=self.errors)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Waseem\\OneDrive\\Desktop\\VSCode\\ProjectFiles\\PythonProjects\\PersonalProjects\\GymTracker\\gym_tracker.log'
+2026-04-14 21:18:57  [INFO    ]  Scheduler triggered at 2026-04-14 21:18:57
+2026-04-14 21:18:57  [INFO    ]  ============================================================
+2026-04-14 21:18:57  [INFO    ]  Gym Tracker run starting
+2026-04-14 21:19:01  [INFO    ]  Navigating to Instagram profile: @westernrecuserstats
+2026-04-14 21:19:05  [DEBUG   ]  Waiting for post grid to load...
+2026-04-14 21:19:10  [INFO    ]  Latest post URL: https://www.instagram.com/p/DXIZgBFkZ7S/
+2026-04-14 21:19:10  [DEBUG   ]  Last recorded post URL: https://www.instagram.com/p/DVjWvUDFoVO/
+2026-04-14 21:19:10  [INFO    ]  New post detected — taking screenshot...
+2026-04-14 21:19:10  [INFO    ]  Screenshot saved to C:\Users\Waseem\OneDrive\Desktop\VSCode\ProjectFiles\PythonProjects\PersonalProjects\GymTracker\latest_post.png
+2026-04-14 21:19:10  [INFO    ]  Running OCR on screenshot...
+2026-04-14 21:19:16  [DEBUG   ]  OCR raw output: ['Western Student Recreation Centre', 'User Stats April 14th, 2026 at 8:00 PM', 'Squash: 4', 'Basketball: 10', 'Volleyball: 2', 'Badminton: 17', 'Pickleball: 6', 'Futsal: NIA', '3rd floor Fitness Centre: 109', '4th floor Fitness Centre: 44', 'Cardio Mezz: 42', 'Spin: 14', "Women's Only Studio: 9", 'Pool: Re-opens 6.45am']
+2026-04-14 21:19:16  [INFO    ]  OCR found → 3rd floor: 109
+2026-04-14 21:19:16  [INFO    ]  OCR found → 4th floor: 44
+2026-04-14 21:19:16  [INFO    ]  CSV row written: [2026-04-14 21:19] 3rd floor → 109
+2026-04-14 21:19:16  [INFO    ]  CSV row written: [2026-04-14 21:19] 4th floor → 44
+2026-04-14 21:19:16  [INFO    ]  Scrape complete.
+2026-04-14 21:19:16  [INFO    ]  Generating graph...
+2026-04-14 21:19:17  [INFO    ]  Graph saved to C:\Users\Waseem\OneDrive\Desktop\VSCode\ProjectFiles\PythonProjects\PersonalProjects\GymTracker\gym_graph.png
+2026-04-14 21:19:17  [INFO    ]  Best times for Tuesday: 21:00 (~153 people)
+2026-04-14 21:19:17  [INFO    ]  Run finished.
+2026-04-14 21:19:17  [INFO    ]  ------------------------------------------------------------
